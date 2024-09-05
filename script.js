@@ -13,11 +13,11 @@ const playPauseIcon = document.querySelector('#play-pause-icon');
 
 
 const songs = [
-  { ele: cartoonAudio, audioName: 'Cartoon by NCS' },
-  { ele: forceAudio, audioName: 'Force by NCS' },
+  { ele: cartoonAudio, audioName: 'Cartoon' },
+  { ele: forceAudio, audioName: 'Force' },
   { ele: squeakyAudio, audioName: 'Squeaky Sound' },
-  { ele: hopeAudio, audioName: 'Hope by NCS' },
-  { ele: janjiAudio, audioName: 'Janji by NCS' },
+  { ele: hopeAudio, audioName: 'Hope' },
+  { ele: janjiAudio, audioName: 'Janji' },
 ];
 
 for(const song of songs) {
